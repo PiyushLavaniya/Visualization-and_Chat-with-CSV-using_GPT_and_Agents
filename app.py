@@ -18,7 +18,7 @@ r = sr.Recognizer()
 translator = Translator()
 
 # Set your OpenAI GPT API key
-openai.api_key = "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"
+# openai.api_key = 
 
 def chat_with_csv(df, user_query, model = "gpt-3.5-turbo-1106"):
     chat = ChatOpenAI(model = model, temperature = 0)
